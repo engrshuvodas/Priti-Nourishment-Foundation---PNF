@@ -200,6 +200,13 @@ body.lang-bn .impact-num {
 .logo-title {
     font-size: 1.25rem;
     font-weight: 800;
+    color: white;
+    transition: var(--transition-fast);
+}
+
+.navbar.scrolled .logo-title,
+.mobile-menu-btn.active~.logo .logo-title,
+.navbar:has(.nav-links.active) .logo-title {
     color: var(--primary);
 }
 
@@ -211,16 +218,25 @@ body.lang-bn .impact-num {
 .nav-links a {
     font-size: 0.85rem;
     font-weight: 700;
-    color: var(--primary);
+    color: white;
     text-decoration: none;
     position: relative;
     opacity: 0.8;
     transition: var(--transition-fast);
 }
 
+.navbar.scrolled .nav-links a {
+    color: var(--primary);
+}
+
 .nav-links a.active,
 .nav-links a:hover {
     opacity: 1;
+    color: var(--accent-light);
+}
+
+.navbar.scrolled .nav-links a.active,
+.navbar.scrolled .nav-links a:hover {
     color: var(--secondary);
 }
 
@@ -231,8 +247,12 @@ body.lang-bn .impact-num {
     left: 0;
     width: 0;
     height: 2px;
-    background: var(--secondary);
+    background: var(--accent-light);
     transition: var(--transition-fast);
+}
+
+.navbar.scrolled .nav-links a::after {
+    background: var(--secondary);
 }
 
 .nav-links a.active::after {
@@ -266,6 +286,16 @@ body.lang-bn .impact-num {
     box-shadow: var(--shadow-md);
 }
 
+.navbar:not(.scrolled) .nav-cta .btn-primary {
+    background: white;
+    color: var(--primary);
+}
+
+.navbar:not(.scrolled) .nav-cta .btn-primary:hover {
+    background: var(--accent-light);
+    color: var(--primary);
+}
+
 .btn-gold {
     background: var(--accent);
     color: white;
@@ -291,10 +321,15 @@ body.lang-bn .impact-num {
 /* Language Switcher */
 .lang-switcher {
     display: flex;
-    background: rgba(15, 45, 31, 0.05);
+    background: rgba(255, 255, 255, 0.1);
     padding: 4px;
     border-radius: 20px;
     cursor: pointer;
+    transition: var(--transition-fast);
+}
+
+.navbar.scrolled .lang-switcher {
+    background: rgba(15, 45, 31, 0.05);
 }
 
 .lang-btn {
@@ -302,10 +337,20 @@ body.lang-bn .impact-num {
     border-radius: 15px;
     font-size: 0.7rem;
     font-weight: 800;
+    color: white;
     transition: var(--transition-fast);
 }
 
+.navbar.scrolled .lang-btn {
+    color: var(--primary);
+}
+
 .lang-btn.active {
+    background: white;
+    color: var(--primary);
+}
+
+.navbar.scrolled .lang-btn.active {
     background: var(--primary);
     color: white;
 }
@@ -870,13 +915,14 @@ body.lang-bn .impact-num {
 .mobile-menu-btn span {
     width: 100%;
     height: 3px;
-    background-color: var(--primary);
+    background-color: white;
     border-radius: 10px;
     transition: var(--transition-smooth);
     transform-origin: center;
 }
 
-.navbar:not(.scrolled) .mobile-menu-btn span {
+.navbar.scrolled .mobile-menu-btn span,
+.mobile-menu-btn.active span {
     background-color: var(--primary);
 }
 
