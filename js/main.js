@@ -52,10 +52,12 @@ function switchLang(lang, shouldSave = true) {
         );
     });
 
-    // Update Input Placeholders
+    // Update Input Placeholders and Option Texts
     document.querySelectorAll('[data-en][data-bn]').forEach(el => {
         if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
             el.placeholder = el.getAttribute(`data-${lang}`);
+        } else if (el.tagName === 'OPTION') {
+            el.textContent = el.getAttribute(`data-${lang}`);
         }
     });
 }
