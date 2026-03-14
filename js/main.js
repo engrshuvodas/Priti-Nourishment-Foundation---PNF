@@ -51,6 +51,13 @@ function switchLang(lang, shouldSave = true) {
             (lang === 'bn' && btn.innerText.includes('বাং'))
         );
     });
+
+    // Update Input Placeholders
+    document.querySelectorAll('[data-en][data-bn]').forEach(el => {
+        if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
+            el.placeholder = el.getAttribute(`data-${lang}`);
+        }
+    });
 }
 
 // 2. High-Performance Scroll Effects
