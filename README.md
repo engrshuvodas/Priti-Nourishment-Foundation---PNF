@@ -93,7 +93,7 @@ open index.html   # On macOS
 ## 🤝 Support & Contact
 * **Location**: Bagerhat, Bangladesh
 * **Phone / WhatsApp**: +880 1927-704833
-* **Email**: nnf.foundation@gmail.com
+* **Email**: pnf.foundation@gmail.com
 * **Website**: [https://nnf-foundation.vercel.app](https://nnf-foundation.vercel.app)
 
 ---
