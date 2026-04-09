@@ -1,10 +1,10 @@
 <div align="center">
-  <img src="data/logo/logo of pnf.jpeg" alt="PNF Logo" width="150" height="150" style="border-radius: 50%; border: 4px solid #2d8a5a;">
+  <img src="data/logo/logo of nnf.jpeg" alt="NNF Logo" width="150" height="150" style="border-radius: 50%; border: 4px solid #2d8a5a;">
   
-  # Priti Nourishment Foundation (PNF)
+  # NOVA Nourish Foundation (NNF)
   **Nourishing the Next Generation of Leaders.**
   
-  [![Website](https://img.shields.io/badge/Website-Live-success?style=for-the-badge&logo=vercel)](https://pnf-foundation.vercel.app)
+  [![Website](https://img.shields.io/badge/Website-Live-success?style=for-the-badge&logo=vercel)](https://nnf-foundation.vercel.app)
   [![Language](https://img.shields.io/badge/Language-English%20%7C%20Bengali-blue?style=for-the-badge)](#)
   [![Theme](https://img.shields.io/badge/Theme-Light%20%7C%20Dark-darkgray?style=for-the-badge)](#)
 </div>
@@ -12,7 +12,7 @@
 ---
 
 ## 🌟 Overview
-Born from the soil of Bagerhat, the **Priti Nourishment Foundation (PNF)** is a youth-powered engine driving nutritional sovereignty in rural Bangladesh. Established in 2025, PNF emerged as a response to the quiet crisis of malnutrition among the youth, proving that information, when packaged with dignity and innovation, has the power to transform lives.
+Born from the soil of Bagerhat, the **NOVA Nourish Foundation (NNF)** is a youth-powered engine driving nutritional sovereignty in rural Bangladesh. Established in 2025, NNF emerged as a response to the quiet crisis of malnutrition among the youth, proving that information, when packaged with dignity and innovation, has the power to transform lives.
 
 ---
 
@@ -78,10 +78,10 @@ To run this project locally, simply clone the repository and open the `index.htm
 
 ```bash
 # Clone the repository
-git clone https://github.com/engrshuvodas/Priti-Nourishment-Foundation---PNF.git
+git clone https://github.com/engrshuvodas/NOVA Nourish Foundation---NNF.git
 
 # Navigate to the project directory
-cd Priti-Nourishment-Foundation---PNF
+cd NOVA Nourish Foundation---NNF
 
 # Open the site
 start index.html  # On Windows
@@ -93,8 +93,8 @@ open index.html   # On macOS
 ## 🤝 Support & Contact
 * **Location**: Bagerhat, Bangladesh
 * **Phone / WhatsApp**: +880 1927-704833
-* **Email**: pnf.foundation@gmail.com
-* **Website**: [https://pnf-foundation.vercel.app](https://pnf-foundation.vercel.app)
+* **Email**: nnf.foundation@gmail.com
+* **Website**: [https://nnf-foundation.vercel.app](https://nnf-foundation.vercel.app)
 
 ---
 <p align="center">

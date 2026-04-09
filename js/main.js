@@ -1,5 +1,5 @@
 /**
- * PNF Main JavaScript - Premium Version
+ * NNF Main JavaScript - Premium Version
  */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -36,13 +36,13 @@ function initMobileMenu() {
 
 // 1. Language Logic (Smart Persistance)
 function initLanguage() {
-    const savedLang = localStorage.getItem('pnf-lang') || 'en';
+    const savedLang = localStorage.getItem('nnf-lang') || 'en';
     switchLang(savedLang, false);
 }
 
 function switchLang(lang, shouldSave = true) {
     document.body.className = `lang-${lang}`;
-    if (shouldSave) localStorage.setItem('pnf-lang', lang);
+    if (shouldSave) localStorage.setItem('nnf-lang', lang);
 
     // UI Update for Toggle Buttons
     document.querySelectorAll('.lang-btn').forEach(btn => {
@@ -158,7 +158,7 @@ if (subscribeForm) {
 
 // Theme Toggle Logic
 function initTheme() {
-    const savedTheme = localStorage.getItem('pnf_theme');
+    const savedTheme = localStorage.getItem('nnf_theme');
     const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
     
     if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
@@ -175,7 +175,7 @@ function toggleTheme() {
     const newTheme = isDark ? 'light' : 'dark';
     
     root.setAttribute('data-theme', newTheme);
-    localStorage.setItem('pnf_theme', newTheme);
+    localStorage.setItem('nnf_theme', newTheme);
     updateThemeIcon();
 }
 

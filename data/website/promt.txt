@@ -1,17 +1,17 @@
 You are an expert frontend developer and UI/UX designer. 
 Build a complete, multi-page NGO website for the 
-"Priti Nourishment Foundation (PNF)" using only 
+"NOVA Nourish Foundation (NNF)" using only 
 HTML, CSS, and vanilla JavaScript — no frameworks, 
 no libraries except Google Fonts.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 🏢 ORGANISATION INFO
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Name: Priti Nourishment Foundation (PNF)
+Name: NOVA Nourish Foundation (NNF)
 Tagline: "Nourishing Lives. Empowering Communities."
 Location: Bagerhat, Bangladesh
 Phone/WhatsApp: +880 1927-704833
-Email: pnf.foundation@gmail.com
+Email: nnf.foundation@gmail.com
 Type: Youth-led nutrition & health NGO
 Supported by: GAIN (Global Alliance for Improved Nutrition), 
               SUN Youth Network Bangladesh
@@ -148,9 +148,9 @@ Design Inspiration:
 🔗 EXTERNAL LINKS (hardcoded)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 WhatsApp: https://wa.me/8801927704833
-Email: pnf.foundation@gmail.com
+Email: nnf.foundation@gmail.com
 WhatsApp donate message: 
-  ?text=Hi, I want to donate to PNF
+  ?text=Hi, I want to donate to NNF
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ✅ TECHNICAL REQUIREMENTS
